@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CD742E25B0716D0083A609 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD742D25B0716D0083A609 /* AppDelegate.m */; };
+		84CD743125B0716D0083A609 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD743025B0716D0083A609 /* SceneDelegate.m */; };
+		84CD743925B0716F0083A609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CD743825B0716F0083A609 /* Assets.xcassets */; };
+		84CD743C25B0716F0083A609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD743A25B0716F0083A609 /* LaunchScreen.storyboard */; };
+		84CD743F25B0716F0083A609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD743E25B0716F0083A609 /* main.m */; };
+		84CD744925B0716F0083A609 /* QBWXDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD744825B0716F0083A609 /* QBWXDemoTests.m */; };
+		84CD745425B0716F0083A609 /* QBWXDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD745325B0716F0083A609 /* QBWXDemoUITests.m */; };
+		84CD747225B0726C0083A609 /* QBWXDChooseClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD747125B0726C0083A609 /* QBWXDChooseClassViewController.m */; };
+		84CD747825B072980083A609 /* QBWXDHaveClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD747725B072980083A609 /* QBWXDHaveClassViewController.m */; };
+		84CD747E25B072B60083A609 /* QBWXDMySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD747D25B072B60083A609 /* QBWXDMySettingViewController.m */; };
+		84CD749825B2B2E80083A609 /* dl_entrance_tab_me_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748325B2B2E70083A609 /* dl_entrance_tab_me_normal@2x.png */; };
+		84CD749925B2B2E80083A609 /* dl_entrance_tab_myclass_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748425B2B2E70083A609 /* dl_entrance_tab_myclass_selected.png */; };
+		84CD749A25B2B2E80083A609 /* ic_back_24@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748525B2B2E70083A609 /* ic_back_24@3x.png */; };
+		84CD749B25B2B2E80083A609 /* dl_entrance_tab_class_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748625B2B2E70083A609 /* dl_entrance_tab_class_normal@3x.png */; };
+		84CD749C25B2B2E80083A609 /* dl_entrance_tab_me_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748725B2B2E80083A609 /* dl_entrance_tab_me_selected@3x.png */; };
+		84CD749D25B2B2E80083A609 /* dl_entrance_tab_class_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748825B2B2E80083A609 /* dl_entrance_tab_class_normal@2x.png */; };
+		84CD749E25B2B2E80083A609 /* ic_back_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748925B2B2E80083A609 /* ic_back_24.png */; };
+		84CD749F25B2B2E80083A609 /* dl_entrance_tab_class_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748A25B2B2E80083A609 /* dl_entrance_tab_class_selected@3x.png */; };
+		84CD74A025B2B2E80083A609 /* dl_entrance_tab_class_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748B25B2B2E80083A609 /* dl_entrance_tab_class_normal.png */; };
+		84CD74A125B2B2E80083A609 /* dl_entrance_tab_class_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748C25B2B2E80083A609 /* dl_entrance_tab_class_selected.png */; };
+		84CD74A225B2B2E80083A609 /* dl_entrance_tab_me_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748D25B2B2E80083A609 /* dl_entrance_tab_me_selected@2x.png */; };
+		84CD74A325B2B2E80083A609 /* dl_entrance_tab_myclass_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748E25B2B2E80083A609 /* dl_entrance_tab_myclass_normal.png */; };
+		84CD74A425B2B2E80083A609 /* ic_back_24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD748F25B2B2E80083A609 /* ic_back_24@2x.png */; };
+		84CD74A525B2B2E80083A609 /* dl_entrance_tab_class_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD749025B2B2E80083A609 /* dl_entrance_tab_class_selected@2x.png */; };
+		84CD74A625B2B2E80083A609 /* dl_entrance_tab_me_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD749125B2B2E80083A609 /* dl_entrance_tab_me_normal.png */; };
+		84CD74A725B2B2E80083A609 /* dl_entrance_tab_myclass_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD749225B2B2E80083A609 /* dl_entrance_tab_myclass_selected@2x.png */; };
+		84CD74A825B2B2E80083A609 /* dl_entrance_tab_myclass_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD749325B2B2E80083A609 /* dl_entrance_tab_myclass_selected@3x.png */; };
+		84CD74A925B2B2E80083A609 /* dl_entrance_tab_myclass_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD749425B2B2E80083A609 /* dl_entrance_tab_myclass_normal@3x.png */; };
+		84CD74AA25B2B2E80083A609 /* dl_entrance_tab_me_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD749525B2B2E80083A609 /* dl_entrance_tab_me_normal@3x.png */; };
+		84CD74AB25B2B2E80083A609 /* dl_entrance_tab_myclass_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD749625B2B2E80083A609 /* dl_entrance_tab_myclass_normal@2x.png */; };
+		84CD74AC25B2B2E80083A609 /* dl_entrance_tab_me_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD749725B2B2E80083A609 /* dl_entrance_tab_me_selected.png */; };
+		84CD74BB25B2BC530083A609 /* QBWXDChooseClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD74BA25B2BC530083A609 /* QBWXDChooseClassView.m */; };
+		84CD74C325B2C4100083A609 /* QBWXHaveClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD74C225B2C4100083A609 /* QBWXHaveClassView.m */; };
+		84CD74CC25B2C47E0083A609 /* QBWXHaveClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD74CB25B2C47E0083A609 /* QBWXHaveClassTableViewCell.m */; };
+		84CD74D425B2C5D30083A609 /* QBWXDMySettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD74D325B2C5D30083A609 /* QBWXDMySettingTableViewCell.m */; };
+		84CD74DD25B2C5F50083A609 /* QBWXDMySettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD74DC25B2C5F50083A609 /* QBWXDMySettingView.m */; };
+		84CD74F025B40A3D0083A609 /* QBWXDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD74EF25B40A3D0083A609 /* QBWXDSettingViewController.m */; };
+		84CD74F625B40A5F0083A609 /* QBWXDSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD74F525B40A5F0083A609 /* QBWXDSettingView.m */; };
+		84CD74FC25B40D890083A609 /* QBWXDSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD74FB25B40D890083A609 /* QBWXDSettingTableViewCell.m */; };
+		84CD750125B41ED00083A609 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD750025B41ED00083A609 /* white.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CD744525B0716F0083A609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CD742125B0716C0083A609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CD742825B0716C0083A609;
+			remoteInfo = QBWXDemo;
+		};
+		84CD745025B0716F0083A609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CD742125B0716C0083A609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CD742825B0716C0083A609;
+			remoteInfo = QBWXDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84CD742925B0716C0083A609 /* QBWXDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBWXDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD742C25B0716D0083A609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84CD742D25B0716D0083A609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84CD742F25B0716D0083A609 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		84CD743025B0716D0083A609 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		84CD743825B0716F0083A609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CD743B25B0716F0083A609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CD743D25B0716F0083A609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD743E25B0716F0083A609 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CD744425B0716F0083A609 /* QBWXDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBWXDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD744825B0716F0083A609 /* QBWXDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDemoTests.m; sourceTree = "<group>"; };
+		84CD744A25B0716F0083A609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD744F25B0716F0083A609 /* QBWXDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBWXDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD745325B0716F0083A609 /* QBWXDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDemoUITests.m; sourceTree = "<group>"; };
+		84CD745525B0716F0083A609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD747025B0726C0083A609 /* QBWXDChooseClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXDChooseClassViewController.h; sourceTree = "<group>"; };
+		84CD747125B0726C0083A609 /* QBWXDChooseClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDChooseClassViewController.m; sourceTree = "<group>"; };
+		84CD747625B072980083A609 /* QBWXDHaveClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXDHaveClassViewController.h; sourceTree = "<group>"; };
+		84CD747725B072980083A609 /* QBWXDHaveClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDHaveClassViewController.m; sourceTree = "<group>"; };
+		84CD747C25B072B60083A609 /* QBWXDMySettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXDMySettingViewController.h; sourceTree = "<group>"; };
+		84CD747D25B072B60083A609 /* QBWXDMySettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDMySettingViewController.m; sourceTree = "<group>"; };
+		84CD748325B2B2E70083A609 /* dl_entrance_tab_me_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_me_normal@2x.png"; sourceTree = "<group>"; };
+		84CD748425B2B2E70083A609 /* dl_entrance_tab_myclass_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_entrance_tab_myclass_selected.png; sourceTree = "<group>"; };
+		84CD748525B2B2E70083A609 /* ic_back_24@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back_24@3x.png"; sourceTree = "<group>"; };
+		84CD748625B2B2E70083A609 /* dl_entrance_tab_class_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_class_normal@3x.png"; sourceTree = "<group>"; };
+		84CD748725B2B2E80083A609 /* dl_entrance_tab_me_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_me_selected@3x.png"; sourceTree = "<group>"; };
+		84CD748825B2B2E80083A609 /* dl_entrance_tab_class_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_class_normal@2x.png"; sourceTree = "<group>"; };
+		84CD748925B2B2E80083A609 /* ic_back_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back_24.png; sourceTree = "<group>"; };
+		84CD748A25B2B2E80083A609 /* dl_entrance_tab_class_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_class_selected@3x.png"; sourceTree = "<group>"; };
+		84CD748B25B2B2E80083A609 /* dl_entrance_tab_class_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_entrance_tab_class_normal.png; sourceTree = "<group>"; };
+		84CD748C25B2B2E80083A609 /* dl_entrance_tab_class_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_entrance_tab_class_selected.png; sourceTree = "<group>"; };
+		84CD748D25B2B2E80083A609 /* dl_entrance_tab_me_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_me_selected@2x.png"; sourceTree = "<group>"; };
+		84CD748E25B2B2E80083A609 /* dl_entrance_tab_myclass_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_entrance_tab_myclass_normal.png; sourceTree = "<group>"; };
+		84CD748F25B2B2E80083A609 /* ic_back_24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back_24@2x.png"; sourceTree = "<group>"; };
+		84CD749025B2B2E80083A609 /* dl_entrance_tab_class_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_class_selected@2x.png"; sourceTree = "<group>"; };
+		84CD749125B2B2E80083A609 /* dl_entrance_tab_me_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_entrance_tab_me_normal.png; sourceTree = "<group>"; };
+		84CD749225B2B2E80083A609 /* dl_entrance_tab_myclass_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_myclass_selected@2x.png"; sourceTree = "<group>"; };
+		84CD749325B2B2E80083A609 /* dl_entrance_tab_myclass_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_myclass_selected@3x.png"; sourceTree = "<group>"; };
+		84CD749425B2B2E80083A609 /* dl_entrance_tab_myclass_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_myclass_normal@3x.png"; sourceTree = "<group>"; };
+		84CD749525B2B2E80083A609 /* dl_entrance_tab_me_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_me_normal@3x.png"; sourceTree = "<group>"; };
+		84CD749625B2B2E80083A609 /* dl_entrance_tab_myclass_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dl_entrance_tab_myclass_normal@2x.png"; sourceTree = "<group>"; };
+		84CD749725B2B2E80083A609 /* dl_entrance_tab_me_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dl_entrance_tab_me_selected.png; sourceTree = "<group>"; };
+		84CD74B925B2BC530083A609 /* QBWXDChooseClassView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXDChooseClassView.h; sourceTree = "<group>"; };
+		84CD74BA25B2BC530083A609 /* QBWXDChooseClassView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDChooseClassView.m; sourceTree = "<group>"; };
+		84CD74C125B2C4100083A609 /* QBWXHaveClassView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXHaveClassView.h; sourceTree = "<group>"; };
+		84CD74C225B2C4100083A609 /* QBWXHaveClassView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXHaveClassView.m; sourceTree = "<group>"; };
+		84CD74CA25B2C47E0083A609 /* QBWXHaveClassTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXHaveClassTableViewCell.h; sourceTree = "<group>"; };
+		84CD74CB25B2C47E0083A609 /* QBWXHaveClassTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXHaveClassTableViewCell.m; sourceTree = "<group>"; };
+		84CD74D225B2C5D30083A609 /* QBWXDMySettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXDMySettingTableViewCell.h; sourceTree = "<group>"; };
+		84CD74D325B2C5D30083A609 /* QBWXDMySettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDMySettingTableViewCell.m; sourceTree = "<group>"; };
+		84CD74DB25B2C5F50083A609 /* QBWXDMySettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXDMySettingView.h; sourceTree = "<group>"; };
+		84CD74DC25B2C5F50083A609 /* QBWXDMySettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDMySettingView.m; sourceTree = "<group>"; };
+		84CD74EE25B40A3D0083A609 /* QBWXDSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXDSettingViewController.h; sourceTree = "<group>"; };
+		84CD74EF25B40A3D0083A609 /* QBWXDSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDSettingViewController.m; sourceTree = "<group>"; };
+		84CD74F425B40A5F0083A609 /* QBWXDSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXDSettingView.h; sourceTree = "<group>"; };
+		84CD74F525B40A5F0083A609 /* QBWXDSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDSettingView.m; sourceTree = "<group>"; };
+		84CD74FA25B40D890083A609 /* QBWXDSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBWXDSettingTableViewCell.h; sourceTree = "<group>"; };
+		84CD74FB25B40D890083A609 /* QBWXDSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBWXDSettingTableViewCell.m; sourceTree = "<group>"; };
+		84CD750025B41ED00083A609 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CD742625B0716C0083A609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD744125B0716F0083A609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD744C25B0716F0083A609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CD742025B0716C0083A609 = {
+			isa = PBXGroup;
+			children = (
+				84CD742B25B0716C0083A609 /* QBWXDemo */,
+				84CD744725B0716F0083A609 /* QBWXDemoTests */,
+				84CD745225B0716F0083A609 /* QBWXDemoUITests */,
+				84CD742A25B0716C0083A609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CD742A25B0716C0083A609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CD742925B0716C0083A609 /* QBWXDemo.app */,
+				84CD744425B0716F0083A609 /* QBWXDemoTests.xctest */,
+				84CD744F25B0716F0083A609 /* QBWXDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CD742B25B0716C0083A609 /* QBWXDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84CD74E725B2E53F0083A609 /* MySource */,
+				84CD748225B2B29F0083A609 /* source */,
+				84CD742C25B0716D0083A609 /* AppDelegate.h */,
+				84CD742D25B0716D0083A609 /* AppDelegate.m */,
+				84CD742F25B0716D0083A609 /* SceneDelegate.h */,
+				84CD743025B0716D0083A609 /* SceneDelegate.m */,
+				84CD74B525B2BBE10083A609 /* QBWXDMySetting */,
+				84CD74B325B2BBA60083A609 /* QBWXDChooseClass */,
+				84CD74B425B2BBC80083A609 /* QBWXDHaveClass */,
+				84CD743825B0716F0083A609 /* Assets.xcassets */,
+				84CD743A25B0716F0083A609 /* LaunchScreen.storyboard */,
+				84CD743D25B0716F0083A609 /* Info.plist */,
+				84CD743E25B0716F0083A609 /* main.m */,
+			);
+			path = QBWXDemo;
+			sourceTree = "<group>";
+		};
+		84CD744725B0716F0083A609 /* QBWXDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CD744825B0716F0083A609 /* QBWXDemoTests.m */,
+				84CD744A25B0716F0083A609 /* Info.plist */,
+			);
+			path = QBWXDemoTests;
+			sourceTree = "<group>";
+		};
+		84CD745225B0716F0083A609 /* QBWXDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84CD745325B0716F0083A609 /* QBWXDemoUITests.m */,
+				84CD745525B0716F0083A609 /* Info.plist */,
+			);
+			path = QBWXDemoUITests;
+			sourceTree = "<group>";
+		};
+		84CD748225B2B29F0083A609 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				84CD750025B41ED00083A609 /* white.png */,
+				84CD748B25B2B2E80083A609 /* dl_entrance_tab_class_normal.png */,
+				84CD748825B2B2E80083A609 /* dl_entrance_tab_class_normal@2x.png */,
+				84CD748625B2B2E70083A609 /* dl_entrance_tab_class_normal@3x.png */,
+				84CD748C25B2B2E80083A609 /* dl_entrance_tab_class_selected.png */,
+				84CD749025B2B2E80083A609 /* dl_entrance_tab_class_selected@2x.png */,
+				84CD748A25B2B2E80083A609 /* dl_entrance_tab_class_selected@3x.png */,
+				84CD749125B2B2E80083A609 /* dl_entrance_tab_me_normal.png */,
+				84CD748325B2B2E70083A609 /* dl_entrance_tab_me_normal@2x.png */,
+				84CD749525B2B2E80083A609 /* dl_entrance_tab_me_normal@3x.png */,
+				84CD749725B2B2E80083A609 /* dl_entrance_tab_me_selected.png */,
+				84CD748D25B2B2E80083A609 /* dl_entrance_tab_me_selected@2x.png */,
+				84CD748725B2B2E80083A609 /* dl_entrance_tab_me_selected@3x.png */,
+				84CD748E25B2B2E80083A609 /* dl_entrance_tab_myclass_normal.png */,
+				84CD749625B2B2E80083A609 /* dl_entrance_tab_myclass_normal@2x.png */,
+				84CD749425B2B2E80083A609 /* dl_entrance_tab_myclass_normal@3x.png */,
+				84CD748425B2B2E70083A609 /* dl_entrance_tab_myclass_selected.png */,
+				84CD749225B2B2E80083A609 /* dl_entrance_tab_myclass_selected@2x.png */,
+				84CD749325B2B2E80083A609 /* dl_entrance_tab_myclass_selected@3x.png */,
+				84CD748925B2B2E80083A609 /* ic_back_24.png */,
+				84CD748F25B2B2E80083A609 /* ic_back_24@2x.png */,
+				84CD748525B2B2E70083A609 /* ic_back_24@3x.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		84CD74B325B2BBA60083A609 /* QBWXDChooseClass */ = {
+			isa = PBXGroup;
+			children = (
+				84CD74B825B2BC0F0083A609 /* Model */,
+				84CD74B725B2BC050083A609 /* View */,
+				84CD74B625B2BBFA0083A609 /* Controller */,
+			);
+			path = QBWXDChooseClass;
+			sourceTree = "<group>";
+		};
+		84CD74B425B2BBC80083A609 /* QBWXDHaveClass */ = {
+			isa = PBXGroup;
+			children = (
+				84CD74C025B2C3F90083A609 /* View */,
+				84CD74BF25B2C3EC0083A609 /* Controller */,
+			);
+			path = QBWXDHaveClass;
+			sourceTree = "<group>";
+		};
+		84CD74B525B2BBE10083A609 /* QBWXDMySetting */ = {
+			isa = PBXGroup;
+			children = (
+				84CD74D125B2C5AD0083A609 /* View */,
+				84CD74D025B2C59C0083A609 /* Controller */,
+			);
+			path = QBWXDMySetting;
+			sourceTree = "<group>";
+		};
+		84CD74B625B2BBFA0083A609 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84CD747025B0726C0083A609 /* QBWXDChooseClassViewController.h */,
+				84CD747125B0726C0083A609 /* QBWXDChooseClassViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84CD74B725B2BC050083A609 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84CD74B925B2BC530083A609 /* QBWXDChooseClassView.h */,
+				84CD74BA25B2BC530083A609 /* QBWXDChooseClassView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84CD74B825B2BC0F0083A609 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84CD74BF25B2C3EC0083A609 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84CD747625B072980083A609 /* QBWXDHaveClassViewController.h */,
+				84CD747725B072980083A609 /* QBWXDHaveClassViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84CD74C025B2C3F90083A609 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84CD74C125B2C4100083A609 /* QBWXHaveClassView.h */,
+				84CD74C225B2C4100083A609 /* QBWXHaveClassView.m */,
+				84CD74CA25B2C47E0083A609 /* QBWXHaveClassTableViewCell.h */,
+				84CD74CB25B2C47E0083A609 /* QBWXHaveClassTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84CD74D025B2C59C0083A609 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84CD747C25B072B60083A609 /* QBWXDMySettingViewController.h */,
+				84CD747D25B072B60083A609 /* QBWXDMySettingViewController.m */,
+				84CD74EE25B40A3D0083A609 /* QBWXDSettingViewController.h */,
+				84CD74EF25B40A3D0083A609 /* QBWXDSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84CD74D125B2C5AD0083A609 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84CD74D225B2C5D30083A609 /* QBWXDMySettingTableViewCell.h */,
+				84CD74D325B2C5D30083A609 /* QBWXDMySettingTableViewCell.m */,
+				84CD74DB25B2C5F50083A609 /* QBWXDMySettingView.h */,
+				84CD74DC25B2C5F50083A609 /* QBWXDMySettingView.m */,
+				84CD74F425B40A5F0083A609 /* QBWXDSettingView.h */,
+				84CD74F525B40A5F0083A609 /* QBWXDSettingView.m */,
+				84CD74FA25B40D890083A609 /* QBWXDSettingTableViewCell.h */,
+				84CD74FB25B40D890083A609 /* QBWXDSettingTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84CD74E725B2E53F0083A609 /* MySource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MySource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CD742825B0716C0083A609 /* QBWXDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD745825B0716F0083A609 /* Build configuration list for PBXNativeTarget "QBWXDemo" */;
+			buildPhases = (
+				84CD742525B0716C0083A609 /* Sources */,
+				84CD742625B0716C0083A609 /* Frameworks */,
+				84CD742725B0716C0083A609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBWXDemo;
+			productName = QBWXDemo;
+			productReference = 84CD742925B0716C0083A609 /* QBWXDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CD744325B0716F0083A609 /* QBWXDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD745B25B0716F0083A609 /* Build configuration list for PBXNativeTarget "QBWXDemoTests" */;
+			buildPhases = (
+				84CD744025B0716F0083A609 /* Sources */,
+				84CD744125B0716F0083A609 /* Frameworks */,
+				84CD744225B0716F0083A609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CD744625B0716F0083A609 /* PBXTargetDependency */,
+			);
+			name = QBWXDemoTests;
+			productName = QBWXDemoTests;
+			productReference = 84CD744425B0716F0083A609 /* QBWXDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84CD744E25B0716F0083A609 /* QBWXDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD745E25B0716F0083A609 /* Build configuration list for PBXNativeTarget "QBWXDemoUITests" */;
+			buildPhases = (
+				84CD744B25B0716F0083A609 /* Sources */,
+				84CD744C25B0716F0083A609 /* Frameworks */,
+				84CD744D25B0716F0083A609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CD745125B0716F0083A609 /* PBXTargetDependency */,
+			);
+			name = QBWXDemoUITests;
+			productName = QBWXDemoUITests;
+			productReference = 84CD744F25B0716F0083A609 /* QBWXDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CD742125B0716C0083A609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					84CD742825B0716C0083A609 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					84CD744325B0716F0083A609 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 84CD742825B0716C0083A609;
+					};
+					84CD744E25B0716F0083A609 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 84CD742825B0716C0083A609;
+					};
+				};
+			};
+			buildConfigurationList = 84CD742425B0716C0083A609 /* Build configuration list for PBXProject "QBWXDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CD742025B0716C0083A609;
+			productRefGroup = 84CD742A25B0716C0083A609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CD742825B0716C0083A609 /* QBWXDemo */,
+				84CD744325B0716F0083A609 /* QBWXDemoTests */,
+				84CD744E25B0716F0083A609 /* QBWXDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CD742725B0716C0083A609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD74A725B2B2E80083A609 /* dl_entrance_tab_myclass_selected@2x.png in Resources */,
+				84CD749A25B2B2E80083A609 /* ic_back_24@3x.png in Resources */,
+				84CD74A225B2B2E80083A609 /* dl_entrance_tab_me_selected@2x.png in Resources */,
+				84CD74A625B2B2E80083A609 /* dl_entrance_tab_me_normal.png in Resources */,
+				84CD74A125B2B2E80083A609 /* dl_entrance_tab_class_selected.png in Resources */,
+				84CD743C25B0716F0083A609 /* LaunchScreen.storyboard in Resources */,
+				84CD750125B41ED00083A609 /* white.png in Resources */,
+				84CD74A925B2B2E80083A609 /* dl_entrance_tab_myclass_normal@3x.png in Resources */,
+				84CD74A025B2B2E80083A609 /* dl_entrance_tab_class_normal.png in Resources */,
+				84CD743925B0716F0083A609 /* Assets.xcassets in Resources */,
+				84CD749F25B2B2E80083A609 /* dl_entrance_tab_class_selected@3x.png in Resources */,
+				84CD749B25B2B2E80083A609 /* dl_entrance_tab_class_normal@3x.png in Resources */,
+				84CD749825B2B2E80083A609 /* dl_entrance_tab_me_normal@2x.png in Resources */,
+				84CD74A325B2B2E80083A609 /* dl_entrance_tab_myclass_normal.png in Resources */,
+				84CD74A525B2B2E80083A609 /* dl_entrance_tab_class_selected@2x.png in Resources */,
+				84CD74A825B2B2E80083A609 /* dl_entrance_tab_myclass_selected@3x.png in Resources */,
+				84CD74AC25B2B2E80083A609 /* dl_entrance_tab_me_selected.png in Resources */,
+				84CD749C25B2B2E80083A609 /* dl_entrance_tab_me_selected@3x.png in Resources */,
+				84CD74AB25B2B2E80083A609 /* dl_entrance_tab_myclass_normal@2x.png in Resources */,
+				84CD749925B2B2E80083A609 /* dl_entrance_tab_myclass_selected.png in Resources */,
+				84CD74AA25B2B2E80083A609 /* dl_entrance_tab_me_normal@3x.png in Resources */,
+				84CD749E25B2B2E80083A609 /* ic_back_24.png in Resources */,
+				84CD749D25B2B2E80083A609 /* dl_entrance_tab_class_normal@2x.png in Resources */,
+				84CD74A425B2B2E80083A609 /* ic_back_24@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD744225B0716F0083A609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD744D25B0716F0083A609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CD742525B0716C0083A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD74CC25B2C47E0083A609 /* QBWXHaveClassTableViewCell.m in Sources */,
+				84CD747E25B072B60083A609 /* QBWXDMySettingViewController.m in Sources */,
+				84CD742E25B0716D0083A609 /* AppDelegate.m in Sources */,
+				84CD74DD25B2C5F50083A609 /* QBWXDMySettingView.m in Sources */,
+				84CD743F25B0716F0083A609 /* main.m in Sources */,
+				84CD74D425B2C5D30083A609 /* QBWXDMySettingTableViewCell.m in Sources */,
+				84CD74F025B40A3D0083A609 /* QBWXDSettingViewController.m in Sources */,
+				84CD74BB25B2BC530083A609 /* QBWXDChooseClassView.m in Sources */,
+				84CD747825B072980083A609 /* QBWXDHaveClassViewController.m in Sources */,
+				84CD74C325B2C4100083A609 /* QBWXHaveClassView.m in Sources */,
+				84CD747225B0726C0083A609 /* QBWXDChooseClassViewController.m in Sources */,
+				84CD74F625B40A5F0083A609 /* QBWXDSettingView.m in Sources */,
+				84CD743125B0716D0083A609 /* SceneDelegate.m in Sources */,
+				84CD74FC25B40D890083A609 /* QBWXDSettingTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD744025B0716F0083A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD744925B0716F0083A609 /* QBWXDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD744B25B0716F0083A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD745425B0716F0083A609 /* QBWXDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CD744625B0716F0083A609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CD742825B0716C0083A609 /* QBWXDemo */;
+			targetProxy = 84CD744525B0716F0083A609 /* PBXContainerItemProxy */;
+		};
+		84CD745125B0716F0083A609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CD742825B0716C0083A609 /* QBWXDemo */;
+			targetProxy = 84CD745025B0716F0083A609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CD743A25B0716F0083A609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CD743B25B0716F0083A609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CD745625B0716F0083A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84CD745725B0716F0083A609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CD745925B0716F0083A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHTLBPCZUG;
+				INFOPLIST_FILE = QBWXDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QBWXDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CD745A25B0716F0083A609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHTLBPCZUG;
+				INFOPLIST_FILE = QBWXDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QBWXDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84CD745C25B0716F0083A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHTLBPCZUG;
+				INFOPLIST_FILE = QBWXDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QBWXDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QBWXDemo.app/QBWXDemo";
+			};
+			name = Debug;
+		};
+		84CD745D25B0716F0083A609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHTLBPCZUG;
+				INFOPLIST_FILE = QBWXDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QBWXDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QBWXDemo.app/QBWXDemo";
+			};
+			name = Release;
+		};
+		84CD745F25B0716F0083A609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHTLBPCZUG;
+				INFOPLIST_FILE = QBWXDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QBWXDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QBWXDemo;
+			};
+			name = Debug;
+		};
+		84CD746025B0716F0083A609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHTLBPCZUG;
+				INFOPLIST_FILE = QBWXDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.QBWXDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QBWXDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CD742425B0716C0083A609 /* Build configuration list for PBXProject "QBWXDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD745625B0716F0083A609 /* Debug */,
+				84CD745725B0716F0083A609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD745825B0716F0083A609 /* Build configuration list for PBXNativeTarget "QBWXDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD745925B0716F0083A609 /* Debug */,
+				84CD745A25B0716F0083A609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD745B25B0716F0083A609 /* Build configuration list for PBXNativeTarget "QBWXDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD745C25B0716F0083A609 /* Debug */,
+				84CD745D25B0716F0083A609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD745E25B0716F0083A609 /* Build configuration list for PBXNativeTarget "QBWXDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD745F25B0716F0083A609 /* Debug */,
+				84CD746025B0716F0083A609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CD742125B0716C0083A609 /* Project object */;
+}
